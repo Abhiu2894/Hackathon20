@@ -7,7 +7,6 @@ import seaborn as sns
 import config
 from datetime import date, timedelta
 from watson_developer_cloud import NaturalLanguageClassifierV1
-#natural_language_classifier = NaturalLanguageClassifierV1(iam_apikey='5MkcCE3a8-yQS1RcAXmNTYXvUiwWOqMBIDhw3MLaQb5d')
 natural_language_classifier = NaturalLanguageClassifierV1(iam_apikey= config.api_key)
 # Give the location of the file
 loc = "Incident_latest.xls"
